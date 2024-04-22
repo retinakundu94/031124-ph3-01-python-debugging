@@ -1,4 +1,4 @@
-def travel_abraod(destination:str):
+def travel_abroad(destination:str):
     return "Currently traveling to {destination}."
 
 print( travel_abroad( "Paris" ) )

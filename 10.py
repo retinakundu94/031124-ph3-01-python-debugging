@@ -6,7 +6,7 @@ person = {
     'name': fake.name(),
     'address': fake.address(),
     'email': fake.email(),
-    'phone': fake.phone()
+    #'phone': fake.phone()
 }
 
 print( person )

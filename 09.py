@@ -11,6 +11,6 @@ def remove_person(person:dict):
 sakib = create_new_person('Sakib', 15)
 chett = create_new_person('Chett', 101)
 
-remove_person(sakib)
+remove_person(people[0])
 
 print( people )

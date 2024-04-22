@@ -1,8 +1,9 @@
-cats = ["Octavia", "Ursula"]
+
 
 def cats():
+    cats = ["Octavia", "Ursula"]
     for cats in cats:
-        cats.append(f"Meow my name is {cats}")
+        print(f"Meow my name is {cats}")
     return cats
 
 print( cats() )
